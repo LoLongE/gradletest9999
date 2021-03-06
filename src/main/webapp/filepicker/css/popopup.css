@@ -1,0 +1,4 @@
+@charset "utf-8";
+div.podim {position:fixed;top:0;left:0;z-index: 999;width:100%;height:100%;background:#fff;opacity:0.8;filter:alpha(opacity=80);}
+iframe#popicker {width: 1300px;height: 800px;}
+div > iframe#popicker {position:fixed;top:10%;left: 50%;margin-left: -700px;border-radius:5px;border:1px solid #a0a0a0;box-shadow: 0 0 4px 1px #d2d2d2;background:#fff;z-index: 1005;}

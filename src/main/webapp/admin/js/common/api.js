@@ -1,0 +1,9 @@
+var DRIVE_SEARCHFILENAME_LIST_API='/api/2/ceconverter/file';
+var ERROR_REPORT_ZIPFILE_DOWNLOAD_API='/api/2/ceconverter/error/report/{docId}';
+var CURRENT_ENGINE_VERSION_API='/api/2/ceconverter/engine/version';
+var UPDATE_ENGINE_VERSION_API='/api/2/ceconverter/engine/version/{version}';
+var SERVER_STATUS_API='/api/2/ceconverter/deploy/status';
+var SERVER_START_API='/api/2/ceconverter/deploy/start';
+var SERVER_STOP_API='/api/2/ceconverter/deploy/stop';
+var DEPLOY_HISTORY_API='/api/2/ceconverter/deploy/history/{start}/{size}';
+var ROLLBACK_API='/api/2/ceconverter/deploy/rollback/{filename}';
